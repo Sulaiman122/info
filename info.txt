@@ -1,0 +1,23 @@
+
+
+-----------------------------------------
+aكيف تطلع الهاش لأي كلمة بالبايثون عن طريق الاوامر
+python3		للدخول على البايثون
+import hashlib	استدعاء لمكتبة الهاش
+hashl = hashlib.new("md5")	متغير ياخذ هاش نوعmd5
+hashl.update(b'Sulaiman')	ندخل القيمة للمتغير .. بالbinary
+hashl.hexdigest()		حتى يعطيك الهاش حق اسمك
+
+-----------------------------------------
+//host تعطيك ايبي الهوست اذا حطيت اسم موقع
+host google.com
+------------------------------------------
+// curl is a tool to transfer data from or to a server
+sudo curl https://ipinfo.io/ip			//to find external ip
+
+-----------------------------------------
+//automator	
+//Automater is a URL/Domain, IP Address, and Md5 Hash tool
+// to analysis, will return results from sources like the following: IPvoid.com, Robtex.com, Fortiguard.com, unshorten.me, Urlvoid.com, Labs.alienvault.com, ThreatExpert, VxVault, and VirusTotal.
+//aتفحص لك رابط وتعطيك معلومات او ايبي او هاش
+python automater.py -s virustotal 
