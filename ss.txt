@@ -1,0 +1,34 @@
+dnsenum
+sublist3r
+theharvester -d domain.com -b gooogle -l 100
+dig -f file.txt
+-----------------------------------------
+[information gathering]
+fierce -h	//scan  تبحث وتجمع معلومات ايبي وهوست والاماكن والاشخاص قريبه منnmap
+fierce -dns zonetransfer.me
+
+-----------------------------------------
+[information gathering]
+dnsrecon -h	//نفس الاداة الي فوق
+dnsrecon -d zonetransfer.me
+dnsrecon -d google.com -a --db /home/kali/Desktop
+
+-----------------------------------------
+[information gathering]
+dmitry		//تبحث بمواقع البحث وتعتبر مشهورة لكن قديمة كانت تستعمل كثير قبل اربع سنوات
+dmitry -wnseo cisco.com
+
+-------------------------------------------
+[information gathering]
+ipgeolocation.py تحمله من github
+		//هذي الاداة قوية للحصول على مواقع الدوماين وISP
+بالتنزيل تحتاج تسوي	pip3 install -r requirements.txt بموقع الملف
+python3 ipgeolocation.py -h
+python3 ipgeolocation.py -m
+
+------------------------------------------
+dnsmap
+dnsbreaker
+dnsrole
+maltego	برنامج موجود بالنظام لتصميم شجرة للمعلومات المجمعة(برنامج قوي)
+
